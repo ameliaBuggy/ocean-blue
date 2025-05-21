@@ -1,4 +1,4 @@
-public class TestRunner {
+public class HateRunner {
     public static void main(String[] args) {
         Hater katie = new Hater("Kehinde", true);
 
