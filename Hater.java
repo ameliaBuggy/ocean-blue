@@ -2,17 +2,10 @@ import java.util.ArrayList;
 
 public class Hater {
 
-    private ArrayList<String> reasons;
     private String hatee;
     private boolean isHating;
+    private ArrayList<String> reasons;
     private static int numHaters;
-
-    public Hater(String hatee) {
-        this.hatee = hatee;
-        isHating = true;
-        reasons = new ArrayList<String>();
-        numHaters++;
-    }
 
     public Hater(String hatee, boolean isHating) {
         this.hatee = hatee;
@@ -45,10 +38,8 @@ public class Hater {
         this.isHating = isHating;
     }
 
-    public void getReasons() {
-        for (String reason : reasons) {
-            System.out.println(reason);
-        }
+    public ArrayList<String> getReasons() {
+        return reasons;
     }
 
     public static int getNumHaters() {
@@ -57,5 +48,11 @@ public class Hater {
 
     public static void removeHater() {
         numHaters--;
+    }
+
+    public void printReasons() {
+        for (String reason : reasons) {
+            System.out.println(reason);
+        }
     }
 }
