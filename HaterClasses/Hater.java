@@ -1,4 +1,5 @@
 package HaterClasses;
+
 import java.util.ArrayList;
 
 public class Hater {
