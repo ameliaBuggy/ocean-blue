@@ -1,3 +1,5 @@
+package Haters;
+
 import java.util.ArrayList;
 
 public class Hater {
