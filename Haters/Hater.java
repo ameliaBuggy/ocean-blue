@@ -1,4 +1,4 @@
-package HaterClasses;
+package Haters;
 
 import java.util.ArrayList;
 

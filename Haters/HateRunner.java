@@ -1,4 +1,4 @@
-package HaterClasses;
+package Haters;
 
 public class HateRunner {
     public static void main(String[] args) {
