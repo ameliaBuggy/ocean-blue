@@ -1,4 +1,4 @@
-public class NewRunner {
+public class ZooRunner {
     public static void main(String[] args) {
         
     }
