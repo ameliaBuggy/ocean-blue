@@ -1,17 +1,21 @@
 public class MultiplesRunner {
-    public static void main(String[] args) {
-        int sum = 0;
-        int current = 1;
-        int previous = 0;
-        int next = 0;
-        while (current < 4000000) {
-            if (current % 2 == 0) {
-                sum += current;
+    public static boolean isPrime(int n) {
+        for (int i = 2; i < n; i++) {
+            if (n % i == 0) {
+                return false;
             }
-            next = current + previous;
-            previous = current;
-            current = next;
         }
-        System.out.println(sum);
+        return true;
+    }
+    public static void main(String[] args) {
+        int count = 7;
+        int num = 13;
+        while (count <= 10001) {
+            num++;
+            if (isPrime(num)) {
+                count++;
+            } 
+        }
+        System.out.println(num);
     }
 }
