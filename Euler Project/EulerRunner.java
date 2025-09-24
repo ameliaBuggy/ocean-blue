@@ -1,4 +1,4 @@
-public class MultiplesRunner {
+public class EulerRunner {
     public static boolean isPrime(int n) {
         if (n <= 1) return true;
         for (int i = 2; i <= Math.sqrt(n); i++) {
